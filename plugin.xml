@@ -16,7 +16,7 @@
                 <string>$PACKAGE_NAME.shortcut</string>
             </array>
         </config-file>
-        <header-file src="src/ios/SiriShortcuts-Bridging-Header.h"/>
+        <header-file src="src/ios/SiriShortcuts-Bridging-Header.h" type="BridgingHeader"/>
         <header-file src="src/ios/AppDelegate+SiriShortcuts.h" />
 
         <source-file src="src/ios/SiriShortcuts.swift" />
